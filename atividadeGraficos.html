@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade</title>
+</head>
+<body class="atividade">
+    <nav>
+        <a href="index.html"><img id="logo" src="Imagens/logo.png" alt="Logo"></a>
+    </nav>
+
+    <div class="slideshow-container">
+        <div class="seta" id="seta-esquerda" onclick="ant_proxSlide(-1)"><img src="Imagens/Seta_esquerda.svg" alt="Seta na cor preta virada para a esquerda"></div>
+        <div class="mySlides">
+            <img src="Imagens/1.png" alt="Gráfico do plástico PETE">
+        </div>
+        <div class="mySlides">
+            <img src="Imagens/2.png" alt="Gráfico do plástico PVC">
+        </div>
+        <div class="mySlides">
+            <img src="Imagens/3.png" alt="Gráfico do plástico PP">
+        </div>
+        <div class="mySlides">
+            <img src="Imagens/4.png" alt="Gráfico do plástico HDPE">
+        </div>
+        <div class="mySlides">
+            <img src="Imagens/5.png" alt="Gráfico do plástico LDPE">
+        </div>
+        <div class="mySlides">
+            <img src="Imagens/6.png" alt="Gráfico do plástico PS">
+        </div>
+        <div class="seta" id="seta-direita" onclick="ant_proxSlide(1)"><img src="Imagens/Seta_direita.svg" alt="Seta na cor preta virada para a direita"></div>
+        <div></div>
+        <button class="botao-amarelo" id="btn-escolherGrafico" onclick = "plastico()">Escolher gráfico</button>
+    </div>
+
+    <div class="pontos">
+        <span class="dot" onclick="slideAtual(1)"></span>
+        <span class="dot" onclick="slideAtual(2)"></span>
+        <span class="dot" onclick="slideAtual(3)"></span>
+        <span class="dot" onclick="slideAtual(4)"></span>
+        <span class="dot" onclick="slideAtual(5)"></span>
+        <span class="dot" onclick="slideAtual(6)"></span>
+    </div>
+
+
+    <script src="slides.js" defer></script>
+</body>
+</html>

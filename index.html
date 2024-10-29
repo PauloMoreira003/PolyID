@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>polyId</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;1,900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Roboto:wght@400;500&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <img id="logo" src="Imagens/logo.png" alt="Logo">
+    </nav>
+    <div class="hero">
+        <img src="Imagens/cenarioMar.gif" alt="Fundo do mar com a foca">
+    </div>
+
+    <!----------------------------EXPERIMENTAR---------------------------->
+
+    <section class="experimentar">
+        <div class="experimentar-texto">
+            <h1 class="titulo-pequeno">Atividade</h1>
+            <p class="texto">
+                Para realizar a atividade é colocado um pedaço de plástico num copo e verifica-se se este afunda. Seguindo uma sequência de passos, o plástico é testado nos copos seguintes e, no final, confirma-se o tipo de plástico num espectrofotómetro. Esta atividade tem de ser realizada no laboratório do departamento de ambiente.
+            </p>
+            <button class="texto-botao" id="btn-experimentar">Experimentar</button>
+        </div>
+        <div class="experimentar-imagem">
+            <img src="Imagens/Gruta.svg" alt="Imagem da foca na gruta">
+        </div>
+    </section>
+
+    <!----------------------------PLÁSTICOS---------------------------->
+
+    <section class="plasticos">
+        <h1 class="titulo-centro">PLÁSTICOS</h1>
+        <div class="cartoes">
+            <div class="cartao" id="cartao-origem">
+                <img src="Imagens/origem.gif" alt="Uma garrafa de plástico com um ponto de interrogação amarelo">
+                <h2>Origem</h2>
+                <p>O primeiro plástico sintético foi desenvolvido no início...</p>
+            </div>
+            <div class="cartao" id="cartao-tipos">
+                <img src="Imagens/tipos.gif" alt="Símbolo dos tipos de plástico">
+                <h2>Tipos</h2>
+                <p>Existem 7 tipos diferentes de plástico, tal com o PET, PEAD, PVC,....</p>
+            </div>
+            <div class="cartao" id="cartao-reciclagem">
+                <img src="Imagens/reciclagem.gif" alt="Contentor do plástico na cor amarela">
+                <h2>Reciclagem</h2>
+                <p>Os plásticos são transportados para centros de triagem....</p>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------------SOLICITAR---------------------------->
+
+    <section class="solicitar">
+        <div class="solicitar-conteudo">
+            <div class="foca">
+                <svg xmlns="http://www.w3.org/2000/svg" width="559" height="773" viewBox="0 0 559 773" fill="none">
+                    <path d="M0.24641 530.423C-7.64489 666.884 175.042 828.521 398.875 754.307C560.048 700.874 593.784 524.135 525.884 443.632C457.985 363.128 527.167 282.518 479.36 156.86C371.212 -127.398 -66.5089 17.287 17.8575 253.716C63.9756 382.968 5.98845 431.182 0.24641 530.423Z" fill="#A9C4FF"/>
+                </svg>
+                <img src="Imagens/focaAnimadagif.gif" alt="Foca a acenar">
+            </div>
+            <form class="solicitar-formulario">
+                <h1 class="titulo-pequeno">SOLICITAR VISITA</h1>
+                <P id="formulario-texto">Vem até ao Laboratório de Ambiente da ESTGV para ficares a conhecer esta atividade.</P>
+                <input id="nome" type="text" placeholder="Nome">
+                <input id="instituicao" type="text" placeholder="Instituição">
+                <input id="email"type="email" placeholder="Email">
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva mais informações"></textarea>
+                <input class="texto-botao" id="submit" type="submit">
+            </form>
+        </div>
+    </section>
+
+    <!----------------------------FOOTER---------------------------->
+
+    <footer>
+        <picture class="footer_logo">
+            <img src="Imagens/logo_departamento.png" alt="Logo do departamento do ambiente">
+        </picture>
+        <p class="footer_contacto">
+            232 480 500 <br> amb@estgv.ipv.pt
+        </p>
+        <p class="footer_localizacao">
+            Escola Superior de Tecnologia e Gestão de Viseu<br>Campus Politécnico de Repeses<br>3504-510 Viseu
+        </p>
+    </footer>
+
+    <!----------------------------SCRIPT---------------------------->
+
+    <script src="script.js"></script>
+</body>
+</html>

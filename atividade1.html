@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade | polyID</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;1,900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Roboto:wght@400;500&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="atividade">
+    <nav>
+        <a href="index.html"><img id="logo" src="Imagens/logo.png" alt="Logo"></a>
+    </nav>
+
+    <!----------------------------ATIVIDADE---------------------------->
+
+    <div class="container-copo">
+        <div class="copo ativo" id="copo1">
+            <h1 class="title1-atv">Solução cloreto de sódio</h1>
+            <h2 class="info1-atv">Densidade: 1,2 g/cm3</h2>
+            <img class="copoimg1-atv" src="Imagens/imagensQualidade/elementosAtividade01.png" alt="Copo1">
+            <div class="buttons-container">
+                <button class="button1-atv" onclick="podeSer(1)">Afundou</button>
+                <button class="button1-atv" onclick="marcarComoAtivo('copo2')">Flutuou</button>
+            </div>
+        </div>
+        <div class="copo" id="copo2">
+            <h1 class="title1-atv">Água destilada</h1>
+            <h2 class="info1-atv">Densidade: 1,0 g/cm3</h2>
+            <img class="copoimg1-atv" src="Imagens/imagensQualidade/elementosAtividade02.png" alt="Copo1">
+            <div class="buttons-container">
+                <button class="button1-atv" onclick="podeSer(2)">Afundou</button>
+                <button class="button1-atv" onclick="marcarComoAtivo('copo3')">Flutuou</button>
+            </div>
+        </div>
+        <div class="copo" id="copo3">
+            <h1 class="title1-atv">Solução etanólica <br> 51%</h1>
+            <h2 class="info1-atv">Densidade: 0,93 g/cm3</h2>
+            <img class="copoimg1-atv" src="Imagens/imagensQualidade/elementosAtividade03.png" alt="Copo1">
+            <div class="buttons-container">
+                <button class="button1-atv" onclick="podeSer(3)">Afundou</button>
+                <button class="button1-atv" onclick="marcarComoAtivo('copo4')">Flutuou</button>
+            </div>
+        </div>
+        <div class="copo" id="copo4">
+            <h1 class="title1-atv">Solução etanólica <br> 60%</h1>
+            <h2 class="info1-atv">Densidade: 0,91 g/cm3</h2>
+            <img class="copoimg1-atv" src="Imagens/imagensQualidade/elementosAtividade04.png" alt="Copo1">
+            <div class="buttons-container">
+                <button class="button1-atv" onclick="podeSer(4)">Afundou</button>
+                <button class="button1-atv" onclick="podeSer(5)">Flutuou</button>
+            </div>
+        </div>
+    </div>
+
+
+        <!----------------------------DESCRIÇÃO---------------------------->
+
+    <div class="container2">
+        <img class="img-c2-atv" src="Imagens/cabecaFoca.gif" alt="Cabeça foca">
+        <p class="textBoxA1">Adiciona o plástico ao copo 1.<br> Mexe e espera um pouco.Verifica se afundou ou flutuou.</p>
+    </div>  
+
+    <script src="script.js"></script>
+
+</body>
+</html>
